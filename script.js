@@ -27,3 +27,7 @@ function myFunction() {
   var k2 = document.getElementById("myText2").value;
   document.getElementById("print2").innerHTML += k2 + "<br>";
 }
+function hide() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("body").style.display = "block";
+}
